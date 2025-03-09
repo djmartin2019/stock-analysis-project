@@ -42,26 +42,10 @@ This project is designed to build a scalable data pipeline for the S&P 500 stock
 ### Data Lake (Medallion Architecture)
 
 - **Bronze Layer:**  
-  Raw CSV files are ingested from yfinance and stored in a partitioned structure:
-  
-  local_s3/ 
-    └── raw_data/ 
-      └── year=YYYY/ 
-        └── month=MM/ 
-          └── day=DD/ 
-            └── data.csv
+Raw CSV files are ingested from yfinance and stored in a partitioned structure.
 
 - **Silver Layer:**  
-Processed and enriched data is stored as Parquet files for efficient querying and further transformations:
-
-local_s3/
-
-  └── silver_data/
-  
-    └── Decade=YYYY/
-    
-      └── part-*.parquet
-
+Processed and enriched data is stored as Parquet files for efficient querying and further transformations.
   
 - **Gold Layer:**  
 Curated data loaded into PostgreSQL for high-performance access by the API and business users.
