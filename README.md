@@ -43,6 +43,7 @@ This project is designed to build a scalable data pipeline for the S&P 500 stock
 
 - **Bronze Layer:**  
   Raw CSV files are ingested from yfinance and stored in a partitioned structure:
+  
   local_s3/ 
     └── raw_data/ 
       └── year=YYYY/ 
@@ -52,9 +53,13 @@ This project is designed to build a scalable data pipeline for the S&P 500 stock
 
 - **Silver Layer:**  
 Processed and enriched data is stored as Parquet files for efficient querying and further transformations:
+
 local_s3/
+
   └── silver_data/
+  
     └── Decade=YYYY/
+    
       └── part-*.parquet
 
   
