@@ -1,0 +1,7 @@
+sp500_frontend/node_modules/
+SP500_Backend/local_s3/
+SP500_Backend/venv/
+SP500_Middleware/venv/
+.DS_Store
+.env
+
