@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+:root {
+  --color-darkgray: #060606;
+  --color-primary: #030300;
+  --color-secondary: #82ca9d;
+}
+
+body {
+  background-color: var(--color-darkgray);
+  color: white;
+}

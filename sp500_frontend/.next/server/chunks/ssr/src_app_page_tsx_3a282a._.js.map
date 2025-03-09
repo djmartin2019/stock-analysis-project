@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidmartin/Desktop/Projects/Projects%202025/SP500_Project/sp500_frontend/src/app/page.tsx"],"sourcesContent":["\"use client\";\n\nimport { redirect } from 'next/navigation';\n\nexport default function Home() {\n    redirect('/dashboard');\n}\n"],"names":[],"mappings":";;;AAEA;AAFA;;AAIe,SAAS;IACpB,CAAA,GAAA,kIAAA,CAAA,WAAQ,AAAD,EAAE;AACb"}},
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}

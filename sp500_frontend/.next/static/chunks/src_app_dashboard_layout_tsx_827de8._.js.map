@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/davidmartin/Desktop/Projects/Projects%202025/SP500_Project/sp500_frontend/src/app/dashboard/layout.tsx"],"sourcesContent":["\"use client\";\n\nexport default function DashboardLayout({\n    children,\n}: {\n    children: React.ReactNode;\n}) {\n    return (\n        <div className=\"flex flex-col flex-1\">\n            <div className=\"flex flex-col flex-1 pl-6 pr-6 pt-3 rounded-tl-3xl bg-black\">\n                {children}\n            </div>\n        </div>\n    );\n}\n"],"names":[],"mappings":";;;;AAAA;;AAEe,SAAS,gBAAgB,EACpC,QAAQ,EAGX;IACG,qBACI,6LAAC;QAAI,WAAU;kBACX,cAAA,6LAAC;YAAI,WAAU;sBACV;;;;;;;;;;;AAIjB;KAZwB"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
